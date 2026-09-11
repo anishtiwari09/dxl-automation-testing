@@ -1,0 +1,23 @@
+{
+  "name": "dxl-playwright-framework",
+  "version": "1.0.0",
+  "description": "Playwright POM Automation Framework for DXL.com with Auto-Healing Locators and MCP integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:footer": "playwright test spec/FooterValidation.spec.ts --headed",
+    "test:megamenu": "playwright test spec/megaMenuValidation.spec.ts --headed",
+    "test:search": "playwright test spec/searchBrowse.spec.ts --headed",
+    "report": "playwright show-report",
+    "report:pdf": "npx tsx generate-pdf-report.ts"
+  },
+  "keywords": ["playwright", "testing", "pom", "qa", "dxl", "auto-heal"],
+  "author": "QA Automation Team",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "@types/node": "^20.14.0",
+    "typescript": "^5.4.5"
+  }
+}

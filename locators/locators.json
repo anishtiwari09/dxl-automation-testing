@@ -1,0 +1,550 @@
+{
+  "cookies": {
+    "acceptButton": [
+      "#onetrust-accept-btn-handler",
+      "#accept-recommended-btn-handler",
+      "button:has-text('Accept All Cookies')",
+      "button:has-text('Accept All')",
+      "button:has-text('Allow All')",
+      ".save-preference-btn-handler",
+      "button[id*='onetrust-accept']"
+    ],
+    "cookieBanner": [
+      "#onetrust-banner-sdk",
+      "#onetrust-consent-sdk",
+      ".ot-sdk-container",
+      "#onetrust-group-container"
+    ]
+  },
+  "globalEModal": {
+    "modal": [
+      "[aria-describedby=\"GE_modal_welcome_label\"]",
+      ".gl-modal",
+      "#gl-modal",
+      "[data-testid=\"ge-welcome-modal\"]",
+      ".gl-overlay"
+    ],
+    "changeCountryLink": [
+      "[aria-describedby=\"GE_modal_welcome_label\"] a:has-text('Change your shipping country')",
+      "a:has-text('Change your shipping country')",
+      "button:has-text('Change your shipping country')",
+      ".gl-modal a.gl-link-change-country",
+      "a[class*='gl-link'][href*='country']",
+      "a:has-text('Change country')"
+    ],
+    "proceedAsUsCustomerBtn": [
+      "button:has-text('Proceed as U.S Customer')",
+      "button:has-text('Proceed as U.S. Customer')",
+      "a:has-text('Proceed as U.S Customer')",
+      "a:has-text('Proceed as U.S. Customer')",
+      "input[value='Proceed as U.S Customer']",
+      "input[value='Proceed as U.S. Customer']",
+      "[data-testid=\"proceed-us-customer-btn\"]",
+      "button.gl-btn-primary"
+    ],
+    "closeButton": [
+      "[aria-describedby=\"GE_modal_welcome_label\"] button[aria-label=\"Close\"]",
+      ".gl-modal .gl-close-btn",
+      ".gl-modal button"
+    ]
+  },
+  "footer": {
+    "footerContainer": [
+      "footer",
+      "contentinfo",
+      "[role=\"contentinfo\"]",
+      "nav[aria-label=\"DXL Footer\"]"
+    ],
+    "dxlRewardsLink": [
+      "footer a[href*='/static/rewards']",
+      "footer a:has-text('DXL Rewards')",
+      "a[href*='/static/rewards']:has-text('DXL Rewards')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('DXL Rewards')",
+      "a:has-text('DXL Rewards')"
+    ],
+    "dxlSustainabilityLink": [
+      "footer a:has-text('Sustainability')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('Sustainability')",
+      "a[href*='/static/environmental-social-governance']",
+      "a:has-text('Sustainability')"
+    ],
+    "wearWhatYouWantBanner": [
+      "img[alt='Wear What You Want']",
+      "a:has(img[alt='Wear What You Want'])",
+      "a[href*='/static/wear-what-you-want']",
+      "a:has-text('Experience The Feeling')"
+    ],
+    "giftCardsBanner": [
+      "a:has-text('Gift Cards')",
+      "a[href*='/static/gift-card-decision']",
+      "img[alt='Gift Card']",
+      "a:has(img[alt='Gift Card'])"
+    ],
+    "rewardYourStyleBanner": [
+      "a:has-text('Reward Your Style')",
+      "a[href*='/static/rewards']:has-text('Reward Your Style')",
+      "img[alt='Rewards Club']",
+      "a:has(img[alt='Rewards Club'])",
+      "a[href*='/static/rewards']"
+    ],
+    "fitmapLink": [
+      "footer a[href*='/static/fitmap']",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('FiTMAP')",
+      "footer a:has-text('FiTMAP')",
+      "a:has-text('FiTMAP')"
+    ],
+    "curbsidePickupLink": [
+      "footer a[href*='/static/buy-online-pickup-in-store']",
+      "footer a:has-text('Curbside Pickup')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('Curbside Pickup')",
+      "a:has-text('Curbside Pickup')"
+    ],
+    "dxlDealsLink": [
+      "footer a[href*='/coupons']",
+      "footer a:has-text('DXL Deals')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('DXL Deals')",
+      "a:has-text('DXL Deals')"
+    ],
+    "heroesDiscountLink": [
+      "footer a[href*='/static/govx-hero-discount']",
+      "footer a:has-text('Heroes Discount')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('Heroes Discount')",
+      "a:has-text('Heroes Discount')"
+    ],
+    "productCollectionsLink": [
+      "footer a[href*='/o/pt-index']",
+      "footer a:has-text('Product Collections')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('Product Collections')",
+      "a:has-text('Product Collections')"
+    ],
+    "priceMatchGuaranteeLink": [
+      "footer a[href*='/static/price-match-guarantee']",
+      "footer a:has-text('Price Match Guarantee')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('Price Match Guarantee')",
+      "a:has-text('Price Match Guarantee')"
+    ],
+    "shippingDeliveryLink": [
+      "footer a[href*='/static/customerservice#shipping-information']",
+      "footer a[href*='/static/customerservice']",
+      "footer a:has-text('Shipping & Delivery')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('Shipping & Delivery')",
+      "a:has-text('Shipping & Delivery')"
+    ],
+    "returnsExchangesLink": [
+      "footer a[href*='/static/customer-service']",
+      "footer a:has-text('Returns & Exchanges')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('Returns & Exchanges')",
+      "a:has-text('Returns & Exchanges')"
+    ],
+    "orderStatusLink": [
+      "footer a[href*='#orderstatus']",
+      "footer a:has-text('Order Status')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('Order Status')",
+      "a:has-text('Order Status')"
+    ],
+    "helpCenterLink": [
+      "footer a[href*='support.dxl.com']",
+      "footer a:has-text('Help Center')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('Help Center')",
+      "a:has-text('Help Center')"
+    ],
+    "findAStoreLink": [
+      "footer a[href*='stores.dxl.com']",
+      "footer a:has-text('Find a Store')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('Find a Store')",
+      "a:has-text('Find a Store')"
+    ],
+    "emailUsLink": [
+      "footer a[href*='mailto:']",
+      "footer a:has-text('Email Us')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('Email Us')",
+      "a:has-text('Email Us')"
+    ],
+    "callUsLink": [
+      "footer a[href*='tel:']",
+      "footer a:has-text('Call Us')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('Call Us')",
+      "a:has-text('Call Us')"
+    ],
+    "aboutUsLink": [
+      "footer a[href*='/static/about-us']",
+      "footer a:has-text('About Us')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('About Us')",
+      "a:has-text('About Us')"
+    ],
+    "careersLink": [
+      "footer a[href*='careers.dxl.com']",
+      "footer a:has-text('Careers')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('Careers')",
+      "a:has-text('Careers')"
+    ],
+    "contactUsLink": [
+      "footer a[href*='customer-service']",
+      "footer a[href*='customerservice']",
+      "footer a:has-text('Contact Us')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('Contact Us')",
+      "a:has-text('Contact Us')"
+    ],
+    "accessibilityStatementLink": [
+      "footer a[href*='accessibility']",
+      "footer a:has-text('Accessibility Statement')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('Accessibility Statement')",
+      "a:has-text('Accessibility Statement')"
+    ],
+    "privacyPolicyLink": [
+      "nav[aria-label=\"DXL Footer\"] a:has-text('Privacy Policy')",
+      "nav[aria-label=\"DXL Footer\"] a[href*='privacy-policy']",
+      "footer a:has-text('Privacy Policy')",
+      "footer a[href*='/static/privacy-policy']",
+      "a:has-text('Privacy Policy')"
+    ],
+    "securityPolicyLink": [
+      "footer a[href*='securitypolicy']",
+      "footer a:has-text('Security Policy')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('Security Policy')",
+      "a:has-text('Security Policy')"
+    ],
+    "termsOfUseLink": [
+      "footer a[href*='terms']",
+      "footer a:has-text('Terms of Use')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('Terms of Use')",
+      "a:has-text('Terms of Use')"
+    ],
+    "californiaPrivacyRightsLink": [
+      "footer a[href*='california-privacy-rights']",
+      "footer a[href*='privacy-policy']",
+      "footer a:has-text('California Privacy Rights')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('California Privacy Rights')",
+      "a:has-text('California Privacy Rights')"
+    ],
+    "doNotSellMyDataLink": [
+      "footer a[href*='onetrust.com']",
+      "footer a[href*='ccpa.dxlg.com']",
+      "footer a:has-text('Do Not Sell My Personal Information')",
+      "footer a:has-text('Do Not Sell My Data')",
+      "footer a:has-text('Do Not Sell')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('Do Not Sell')",
+      "a:has-text('Do Not Sell')"
+    ],
+    "californiaTransparencyActLink": [
+      "footer a[href*='californiatransparencyact']",
+      "footer a:has-text('California Transparency Act')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('California Transparency Act')",
+      "a:has-text('California Transparency Act')"
+    ],
+    "ugcTermsLink": [
+      "footer a[href*='ugc-terms']",
+      "footer a[href*='ugc_terms']",
+      "footer a:has-text('UGC Terms & Conditions')",
+      "footer a:has-text('UGC Terms')",
+      "nav[aria-label=\"DXL Footer\"] a:has-text('UGC Terms')",
+      "a:has-text('UGC Terms')"
+    ],
+    "otCloseBtn": [
+      "#close-pc-btn-handler",
+      ".ot-close-icon",
+      "button[aria-label=\"Close\"]",
+      "#onetrust-close-btn-container button"
+    ]
+  },
+  "megaMenu": {
+    "navContainer": [
+      "nav[role=\"menubar\"]",
+      "menubar[aria-label=\"Mega Menu\"]",
+      "nav",
+      "[aria-label=\"Mega Menu\"]"
+    ],
+    "newMenuItem": [
+      "nav [role=\"menuitem\"]:has-text('NEW')",
+      "menubar a:has-text('NEW')",
+      "a[href*='/c/new']",
+      "nav a:has-text('NEW')"
+    ],
+    "shirtsMenuItem": [
+      "nav [role=\"menuitem\"]:has-text('SHIRTS')",
+      "menubar a:has-text('SHIRTS')",
+      "a[href*='/c/shirts']",
+      "nav a:has-text('SHIRTS')"
+    ],
+    "graphicTeesSubMenuItem": [
+      "a:has-text('Graphic Tees')",
+      "a[href*='/c/graphic-tees']",
+      "#level1:has-text('Graphic Tees')",
+      "a[id='level1'][href*='graphic-tees']"
+    ],
+    "brandsMenuItem": [
+      "nav [role=\"menuitem\"]:has-text('BRANDS')",
+      "menubar a:has-text('BRANDS')",
+      "a[href*='/c/brands']",
+      "nav a:has-text('BRANDS')"
+    ],
+    "trendingMenuItem": [
+      "nav [role=\"menuitem\"]:has-text('TRENDING')",
+      "menubar a:has-text('TRENDING')",
+      "a[href*='/c/trending']",
+      "nav a:has-text('TRENDING')"
+    ],
+    "pantsShortsMenuItem": [
+      "nav [role=\"menuitem\"]:has-text('PANTS + SHORTS')",
+      "nav [role=\"menuitem\"]:has-text('PANTS')",
+      "menubar a:has-text('PANTS + SHORTS')",
+      "a[href*='/c/pants-shorts']",
+      "nav a:has-text('PANTS + SHORTS')"
+    ],
+    "outerwearMenuItem": [
+      "nav [role=\"menuitem\"]:has-text('OUTERWEAR')",
+      "menubar a:has-text('OUTERWEAR')",
+      "a[href*='/c/outerwear']",
+      "nav a:has-text('OUTERWEAR')"
+    ],
+    "activewearMenuItem": [
+      "nav [role=\"menuitem\"]:has-text('ACTIVEWEAR')",
+      "menubar a:has-text('ACTIVEWEAR')",
+      "a[href*='/c/activewear']",
+      "nav a:has-text('ACTIVEWEAR')"
+    ],
+    "teamsMenuItem": [
+      "nav [role=\"menuitem\"]:has-text('TEAMS')",
+      "nav [role=\"menuitem\"]:has-text('TEAM SHOP')",
+      "menubar a:has-text('TEAMS')",
+      "a[href*='/c/team-shop']",
+      "a[href*='/c/teams']",
+      "nav a:has-text('TEAMS')"
+    ],
+    "suitShopMenuItem": [
+      "nav [role=\"menuitem\"]:has-text('SUIT SHOP')",
+      "nav [role=\"menuitem\"]:has-text('SUITS')",
+      "menubar a:has-text('SUIT SHOP')",
+      "a[href*='/c/suit-shop']",
+      "a[href*='/c/suits']",
+      "nav a:has-text('SUIT SHOP')"
+    ],
+    "underwearLoungeMenuItem": [
+      "nav [role=\"menuitem\"]:has-text('UNDERWEAR + LOUNGE')",
+      "nav [role=\"menuitem\"]:has-text('UNDERWEAR')",
+      "menubar a:has-text('UNDERWEAR + LOUNGE')",
+      "a[href*='/c/underwear-lounge']",
+      "nav a:has-text('UNDERWEAR + LOUNGE')"
+    ],
+    "shoesMenuItem": [
+      "nav [role=\"menuitem\"]:has-text('SHOES')",
+      "menubar a:has-text('SHOES')",
+      "a[href*='/c/shoes']",
+      "nav a:has-text('SHOES')"
+    ],
+    "accessoriesMenuItem": [
+      "nav [role=\"menuitem\"]:has-text('ACCESSORIES')",
+      "menubar a:has-text('ACCESSORIES')",
+      "a[href*='/c/accessories']",
+      "nav a:has-text('ACCESSORIES')"
+    ],
+    "saleMenuItem": [
+      "nav [role=\"menuitem\"]:has-text('SALE')",
+      "menubar a:has-text('SALE')",
+      "a[href*='/c/sale']",
+      "nav a:has-text('SALE')"
+    ]
+  },
+  "plp": {
+    "productGrid": [
+      "[data-testid=\"plp-product-grid\"]",
+      ".product-grid",
+      "#product-grid",
+      ".plp-grid",
+      "[class*=\"product-grid\"]",
+      "[class*=\"ProductGrid\"]"
+    ],
+    "productTile": [
+      "[data-testid=\"product-tile\"]",
+      ".product-tile",
+      "[class*=\"productTile\"]",
+      "[class*=\"ProductTile\"]",
+      "article[class*=\"product\"]",
+      ".product-card",
+      "a[href*='/p/']"
+    ],
+    "plpHeader": [
+      "h1",
+      "[data-testid=\"plp-title\"]",
+      ".plp-header",
+      ".category-title",
+      "[class*=\"CategoryTitle\"]"
+    ]
+  },
+  "headerModals": {
+    "findAStoreBtn": [
+      "button[title=\"Find a Store\"]",
+      "button[aria-label=\"Find a Store\"]",
+      "button:has-text('Find a Store')",
+      "[name=\"order-status\"][title=\"Find a Store\"]"
+    ],
+    "orderStatusBtn": [
+      "button[title=\"Order Status\"]",
+      "button[aria-label=\"Order Status\"]",
+      "button:has-text('Order Status')",
+      "[name=\"order-status\"][title=\"Order Status\"]"
+    ],
+    "accountBtn": [
+      "button[title=\"Account\"]",
+      "button[name=\"my account\"]",
+      "button[aria-label*=\"Hi Guest\"]",
+      "button:has-text('Sign In')"
+    ],
+    "wishlistBtn": [
+      "button[title=\"Wishlist\"]",
+      "button[name=\"Wishlist\"]",
+      "button[aria-label=\"Wishlist\"]",
+      "button:has-text('Wishlist')"
+    ],
+    "cartBtn": [
+      "#my-shopping-bag",
+      "button[id=\"my-shopping-bag\"]",
+      "button[title=\"Cart\"]",
+      "button[name=\"my shopping bag\"]"
+    ],
+    "modalDialog": [
+      ".chakra-modal__content",
+      "[role=\"dialog\"]",
+      ".chakra-modal__content-container [role=\"dialog\"]",
+      ".chakra-slide"
+    ],
+    "modalHeader": [
+      ".chakra-modal__header",
+      "header",
+      "[class*=\"modal__header\"]",
+      "h2, h3, h4"
+    ],
+    "modalCloseBtn": [
+      ".chakra-modal__close-btn",
+      "button[aria-label=\"Close\"]",
+      "button.chakra-modal__close-btn",
+      "[class*=\"modal__close\"]"
+    ]
+  },
+  "search": {
+    "searchInput": [
+      "#global-search-input",
+      "input#global-search-input",
+      "#search-input",
+      "input#search-input",
+      "input[id*='search-input']",
+      "input[placeholder*='Search product, brand, or category' i]",
+      "input[aria-labelledby*='search-label']",
+      "input[aria-controls*='search-menu']",
+      "input[role='searchbox']",
+      "input.chakra-input[id*='search']",
+      "header input[placeholder*='Search' i]"
+    ],
+    "searchTrigger": [
+      "button[aria-label*=\"Search\" i]:not(footer button)",
+      "button[title*=\"Search\" i]:not(footer button)",
+      "header [data-testid*=\"search-button\"]",
+      "header button:has(svg[aria-label*=\"Search\" i])",
+      "header [aria-label*=\"search icon\" i]"
+    ],
+    "searchFlyout": [
+      "[data-testid=\"search-flyout\"]",
+      ".search-flyout",
+      "#search-flyout",
+      "[class*=\"searchFlyout\"]",
+      "[class*=\"SearchFlyout\"]",
+      "[role=\"dialog\"]",
+      "[role=\"listbox\"]",
+      "[aria-label*=\"Search\" i]"
+    ],
+    "recommendedForYouSection": [
+      "h2:has-text('Recommended For You')",
+      "h3:has-text('Recommended For You')",
+      ":text('Recommended For You')",
+      "[data-testid*=\"recommended\"]",
+      "div:has-text('Recommended For You')"
+    ],
+    "suggestionsSection": [
+      "h2:has-text('Suggestions')",
+      "h3:has-text('Suggestions')",
+      ":text('Suggestions')",
+      "[data-testid*=\"suggestions\"]",
+      "div:has-text('Suggestions')"
+    ],
+    "popularProductsSection": [
+      "h2:has-text('Popular Products')",
+      "h3:has-text('Popular Products')",
+      ":text('Popular Products')",
+      "[data-testid*=\"popular\"]",
+      "div:has-text('Popular Products')"
+    ],
+    "popularProductItem": [
+      "#search-item-5",
+      "[id=\"search-item-5\"]",
+      "[id*=\"search-item-\"]",
+      "[data-testid*=\"search-item\"]",
+      "li[id*=\"search-item\"]",
+      "div[id*=\"search-item\"]",
+      "a[id*=\"search-item\"]",
+      "div[class*=\"search\"] a[href*=\"/p/\"]",
+      "div[class*=\"flyout\"] a[href*=\"/p/\"]",
+      "[role=\"listbox\"] a[href*=\"/p/\"]"
+    ],
+    "searchIcon": [
+      "button[aria-label=\"search icon\"]",
+      "button[aria-label=\"Search\"]",
+      "[aria-label=\"search icon\"]",
+      "[aria-label*=\"search\" i]",
+      "button:has(svg[aria-label*=\"search\" i])",
+      "button[type=\"submit\"]"
+    ],
+    "breadcrumb": [
+      "nav[aria-label=\"breadcrumb\"]",
+      "nav[aria-label=\"Breadcrumb\"]",
+      "[aria-label=\"breadcrumb\"]",
+      ".breadcrumb",
+      "[class*=\"breadcrumb\"]",
+      "[class*=\"Breadcrumb\"]",
+      "ol[class*=\"breadcrumb\"]",
+      "nav[class*=\"breadcrumb\"]"
+    ],
+    "breadcrumbHomeLink": [
+      "nav[aria-label=\"breadcrumb\"] a:has-text('Home')",
+      "nav[aria-label=\"Breadcrumb\"] a:has-text('Home')",
+      "[aria-label=\"breadcrumb\"] a:has-text('Home')",
+      "nav a[href=\"/\"]:has-text('Home')",
+      "a:has-text('Home')"
+    ],
+    "noResultsHeading": [
+      "h1:has-text('Sorry, no results for')",
+      "h2:has-text('Sorry, no results for')",
+      "h3:has-text('Sorry, no results for')",
+      ":text('Sorry, no results for')",
+      "div:has-text('Sorry, no results for')",
+      "p:has-text('Sorry, no results for')",
+      "[data-testid*=\"no-results\"]",
+      ".no-results"
+    ],
+    "showMoreButton": [
+      "button:has-text('Show More')",
+      "a:has-text('Show More')",
+      "button:has-text('Load More')",
+      "a:has-text('Load More')",
+      "button:has-text('View More')",
+      "a:has-text('View More')",
+      "[data-testid*=\"show-more\"]",
+      "[data-testid*=\"load-more\"]",
+      ".show-more-btn",
+      "button[aria-label*=\"Show more\" i]",
+      "button[aria-label*=\"Load more\" i]"
+    ],
+    "pdp": {
+      "productTitle": [
+        "h1",
+        "[data-testid=\"pdp-product-title\"]",
+        "[class*=\"product-title\"]",
+        "[class*=\"ProductTitle\"]"
+      ],
+      "addToBagBtn": [
+        "button:has-text('Add to Bag')",
+        "button:has-text('Add To Bag')",
+        "[data-testid=\"add-to-bag\"]"
+      ]
+    }
+  }
+}
