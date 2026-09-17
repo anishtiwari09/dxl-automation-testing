@@ -2,15 +2,15 @@ version: "0.1"
 
 runson: linux
 
+runtime:
+  - language: node
+    version: "20"
+
 globalTimeout: 120
 
 testSuiteTimeout: 120
 
 testSuiteStep: 120
-
-autosplit: true
-
-retryOnFailure: false
 
 concurrency: 1
 
@@ -24,12 +24,7 @@ pre:
   - yarn install --frozen-lockfile
   - yarn playwright install --with-deps
 
-testDiscovery:
-  type: raw
-  mode: remote
-  command: grep -lr 'test(' spec
-
-testRunnerCommand: yarn playwright test $test
+testRunnerCommand: yarn test
 
 report: true
 
