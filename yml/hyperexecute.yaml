@@ -3,8 +3,8 @@ version: "0.1"
 runson: linux
 
 runtime:
-  - language: node
-    version: "20"
+  language: node
+  version: "20"
 
 globalTimeout: 120
 

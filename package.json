@@ -16,7 +16,7 @@
   "author": "QA Automation Team",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.45.0",
+    "@playwright/test": "1.62.1",
     "@types/node": "^20.14.0",
     "typescript": "^5.4.5"
   }
