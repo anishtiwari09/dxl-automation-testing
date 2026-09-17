@@ -1,0 +1,40 @@
+version: "0.2"
+
+runson: linux
+
+globalTimeout: 120
+
+testSuiteTimeout: 120
+
+testSuiteStep: 120
+
+concurrency: 1
+
+cacheKey: '{{ checksum "yarn.lock" }}'
+
+cacheDirectories:
+  - node_modules
+
+pre:
+  - corepack enable
+  - yarn install --frozen-lockfile
+  - yarn playwright install --with-deps
+
+testRunnerCommand: yarn test
+
+report: true
+
+partialReports:
+  frameworkName: playwright
+  location: playwright-report
+  type: HTML
+
+uploadArtefacts:
+  - name: Playwright Reports
+    path:
+      - playwright-report/**
+      - test-results/**
+
+jobLabel:
+  - playwright
+  - typescript
