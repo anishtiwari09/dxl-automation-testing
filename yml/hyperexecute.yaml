@@ -13,7 +13,7 @@ testSuiteTimeout: 120
 testSuiteStep: 120
 
 autosplit: true
-concurrency: 1
+concurrency: 2
 
 env:
   CI: "true"
@@ -31,9 +31,9 @@ pre:
 testDiscovery:
   type: raw
   mode: remote
-  command: echo "run-suite"
+  command: grep -lr 'test(' spec
 
-testRunnerCommand: yarn test
+testRunnerCommand: yarn playwright test $test
 
 report: true
 
