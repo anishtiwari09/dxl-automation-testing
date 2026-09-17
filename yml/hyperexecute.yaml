@@ -12,7 +12,11 @@ testSuiteTimeout: 120
 
 testSuiteStep: 120
 
+autosplit: true
 concurrency: 1
+
+env:
+  CI: "true"
 
 cacheKey: '{{ checksum "yarn.lock" }}'
 
@@ -22,7 +26,12 @@ cacheDirectories:
 pre:
   - corepack enable
   - yarn install --frozen-lockfile
-  - yarn playwright install --with-deps
+  - yarn playwright install --with-deps chromium firefox webkit chrome
+
+testDiscovery:
+  type: raw
+  mode: static
+  command: echo "run-suite"
 
 testRunnerCommand: yarn test
 
