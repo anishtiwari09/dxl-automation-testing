@@ -30,7 +30,7 @@ pre:
 
 testDiscovery:
   type: raw
-  mode: static
+  mode: remote
   command: echo "run-suite"
 
 testRunnerCommand: yarn test
