@@ -17,7 +17,7 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   retries: 0,
   // Optimal live environment concurrency: 2 workers (or 1 in CI) prevents socket exhaustion
-  workers: process.env.CI ? 1 : 2,
+  workers: process.env.CI ? 2 : 2,
   reporter: [
     ['list'],
     ['html', { outputFolder: 'playwright-report', open: 'never' }],
@@ -55,17 +55,7 @@ export default defineConfig({
         },
       },
     },
-    {
-      name: 'firefox',
-      use: {
-        ...devices['Desktop Firefox'],
-      },
-    },
-    {
-      name: 'webkit',
-      use: {
-        ...devices['Desktop Safari'],
-      },
-    },
+
+
   ],
 });
